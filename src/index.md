@@ -3,9 +3,6 @@ title: Tinkering around with Netlify
 layout: layouts/base.njk
 ---
 
-# What shall we explore?
+# Exploring Netlify with CSS Tricks
 
-- Perhaps
-- a list
-- for use to go through
-- with links
+Where to begin?
