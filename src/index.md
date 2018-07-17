@@ -9,16 +9,14 @@ Where to begin?
 
 ## A form
 
-<form action="thanks" netlify>
-  <div>
-    <label for="fullname">Full name</label>
-    <input type="text" id="fullname" name="fullname" />
-  </div>
-  <div>
-    <label for="color">Favourite HTML colour property</label>
-    <input type="text" id="color" name="color" />
-  </div>
-  <div>
-    <input type="submit" />
-  </div>
+<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>
