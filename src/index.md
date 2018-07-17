@@ -7,7 +7,7 @@ layout: layouts/base.njk
 
 Where to begin?
 
-## A form
+## Perhaps a form?
 
 <form name="contact" netlify>
   <p>
