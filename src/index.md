@@ -9,7 +9,7 @@ Where to begin?
 
 ## Perhaps a form?
 
-<form name="contact" netlify>
+<form name="contact" action="thanks" netlify>
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>
