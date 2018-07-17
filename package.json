@@ -6,11 +6,15 @@
     "type": "git",
     "url": "https://github.com/philhawksworth/netlify-csstricks"
   },
-  "scripts" : {
-    "start" : "eleventy --serve",
-    "build" : "eleventy"
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "gulp build"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.5.0"
+    "@11ty/eleventy": "^0.5.0",
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "gulp": "^4.0.0",
+    "gulp-shell": "^0.6.5"
   }
 }
