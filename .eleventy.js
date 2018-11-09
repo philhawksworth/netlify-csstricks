@@ -10,11 +10,6 @@ module.exports = function(config) {
       input: "src",
       output: "dist",
       includes: "_includes"
-    },
-
-    // some handy options
-    templateFormats : ["html", "js"],
-    passthroughFileCopy: true
-
+    };
   };
 };
