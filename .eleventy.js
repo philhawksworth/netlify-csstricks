@@ -1,5 +1,7 @@
 module.exports = function(config) {
 
+  // just pass the css we find through to the dist folder
+  config.addPassthroughCopy("src");
 
   return {
 
