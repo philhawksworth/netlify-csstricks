@@ -9,7 +9,7 @@ module.exports = function(config) {
     dir: {
       input: "src",
       output: "dist",
-      includes: "_includes"
+      includes: "src"
     },
     
     // some handy options
