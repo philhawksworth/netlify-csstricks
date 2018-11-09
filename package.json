@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
-    "type": "gyt",
+    "type": "git",
     "url": "https://github.com/maplol/netlify-csstricks"
   },
   "scripts" : {
