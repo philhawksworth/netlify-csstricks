@@ -1,6 +1,6 @@
 ---
 title: Tinkering around with Netlify
-layout: layouts/base.njk
+layout: layouts/base.html
 ---
 
 # Exploring Netlify with CSS Tricks
