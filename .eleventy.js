@@ -13,7 +13,7 @@ module.exports = function(config) {
     },
     
     // some handy options
-    templateFormats : ["html", "js", "toml"],
+    templateFormats : ["html", "js", "toml", "njk", "md"],
     passthroughFileCopy: true
 
   };
