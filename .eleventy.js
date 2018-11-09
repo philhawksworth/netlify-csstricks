@@ -1,7 +1,7 @@
 module.exports = function(config) {
 
   // just pass the css we find through to the dist folder
-  config.addPassthroughCopy("src/css");
+  config.addPassthroughCopy("src");
 
   return {
 
@@ -13,7 +13,7 @@ module.exports = function(config) {
     },
 
     // some handy options
-    templateFormats : ["njk", "md"],
+    templateFormats : ["html", "js"],
     passthroughFileCopy: true
 
   };
