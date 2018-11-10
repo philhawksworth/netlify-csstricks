@@ -12,4 +12,4 @@ var weathe = new XMLHttpRequest();
 weathe.addEventListener("load", reqListener);
 weathe.open('GET', weatheURL,);
 weathe.responseType = 'json';
-weathe.send(undefined);
+weathe.send('');
