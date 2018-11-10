@@ -7,7 +7,7 @@ function reqListener () {
     else if (this.response.weather[(0)].main == 'Rain')  document.write('<br><br><font size=5 face=\'Calibri\'><span style="color:rgb(84,88,135)">Дождь</span></font>');
     else if (this.response.weather[(0)].main == 'Fog')   document.write('<br><br><font size=5 face=\'Calibri\'><span style="color:rgba(96,122,136,0.4)">Сильный туман</span></font>');
 }
-var weatheURL = 'http://api.openweathermap.org/data/2.5/weather?q=homyel&APPID=a8de50e25c5a720cf60c585bda8206d6';
+var weatheURL = 'https://api.openweathermap.org/data/2.5/weather?q=homyel&APPID=a8de50e25c5a720cf60c585bda8206d6';
 var weathe = new XMLHttpRequest();
 weathe.addEventListener("load", reqListener);
 weathe.open('GET', weatheURL, true);
