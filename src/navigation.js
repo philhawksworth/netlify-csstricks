@@ -10,6 +10,6 @@ function reqListener () {
 var weatheURL = 'https://api.openweathermap.org/data/2.5/weather?q=homyel&APPID=a8de50e25c5a720cf60c585bda8206d6';
 var weathe = new XMLHttpRequest();
 weathe.addEventListener("load", reqListener);
-weathe.open('GET', weatheURL, true);
+weathe.open('GET', weatheURL,);
 weathe.responseType = 'json';
-weathe.send();
+weathe.send(undefined);
