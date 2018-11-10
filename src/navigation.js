@@ -1,5 +1,5 @@
 function reqListener () {
-    document.write( this.response.name = "Гомель" );
+    document.write( this.response.name = "<font size=7> Гомель </font>");
     document.write( '<br><br>', parseInt(this.response.main.temp - 273) + " С*" );
     if (this.response.weather[(0)].main == 'Mist')  document.write('<br><br><font size=6><span style="color:rgba(87,100,122,0.66)">Туманно<img src="http://openweathermap.org/img/w/50d.png"></span></font>');
     else if (this.response.weather[(0)].main == 'Clear') document.write('<br><br><font size=6><span style="color:rgb(0,218,255)">Чистое небо<img src="http://openweathermap.org/img/w/01d.png"></span></font>');
