@@ -1,2 +1,1 @@
-# netlify-csstricks
-https://weathergomel.netlify.com/
+https://weatherbelarus.netlify.com/
