@@ -11,7 +11,7 @@ var a = ('<style>\n' +
 
 function reqListener () {
     document.write(a,'<font face=\'Calibri\'><center><b>');
-    document.write(this.response.name = "<font size=7 >Гомель");
+    document.write(this.response.name = "<font size=7 >Гомель</font>");
     document.write('<br><br><font size=5 >',parseInt(this.response.main.temp - 273) + ' °C');
     if      (this.response.weather[(0)].main == 'Mist')  document.write('<br><br><font size=6 ><span style="color:rgba(125,126,134,0.66)">Туманно</span>');
     else if (this.response.weather[(0)].main == 'Clear') document.write('<br><br><font size=6 ><span style="color:rgb(0,218,255)">Чистое небо</span>');
