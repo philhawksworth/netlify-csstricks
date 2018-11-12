@@ -1,6 +1,6 @@
 var a = ('<style>\n' +
     '   body {\n' +
-    '    background: url(https://media3.giphy.com/media/VxbvpfaTTo3le/giphy.gif) repeat;\n' +
+    '    background: url(https://i.gifer.com/3U7e.gif) repeat;\n' +
     '    -moz-background-size: 100%; \n' +
     '    -webkit-background-size: 100%; \n' +
     '    -o-background-size: 100%; \n' +
