@@ -72,18 +72,4 @@ body {
 .widget {
     display: inline-block;
 }
-.tooltip {
-    margin-top: 20px;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s, margin-top 0.3s, visibility 0s linear 0.3s;
-}
-.image:hover .tooltip {
-    margin-top: 0;
-    opacity: 1;
-    visibility: visible;
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    transition-delay: 0s;
-}
+
