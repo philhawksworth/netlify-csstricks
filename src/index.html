@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" >
-    <style type="text/css">
-        button.new {
-            -moz-box-shadow: 0px 4px 2px 0px #242fff;
-            -webkit-box-shadow: 0px 4px 2px 0px #242fff;
-            box-shadow: 0px 4px 2px 0px #242fff;
-            background-color:#002b96;
-            -moz-border-radius:10px;
-            -webkit-border-radius:10px;
-            border-radius:10px;
-            border:4px solid #b2c1ff;
-            display:inline-block;
-            cursor:pointer;
-            color:#ffffff;
-            font-family:Calibri;
-            font-size:21px;
-            font-weight:bold;
-            padding:10px 23px;
-            text-decoration:none;
-            text-shadow:2px 2px 2px #0d0d0d;
-        }
-        button:hover {
-            background-color:#0017ad;
-        }
-        button:active {
-            position:relative;
-            top:2px;
-        }
-           body {
-               background: url(https://i.gifer.com/3WyW.gif) repeat;
-               -moz-background-size: 100%;
-               -webkit-background-size: 100%;
-               -o-background-size: 100%;
-               background-size: 100%;
-           }
-    </style>
+    <div class="image"><img class="img1" src="https://image.ibb.co/gc3kQL/vitebsk.png"></div>
+    <div class="image"><img class="img2" src="https://image.ibb.co/g6N1zf/mogilev.png"></div>
+    <div class="image"><img class="img3" src="https://image.ibb.co/mbeQQL/minsk.png"></div>
+    <div class="image"><img class="img4" src="https://image.ibb.co/e1biC0/grodno.png"></div>
+    <div class="image"><img class="img5" src="https://image.ibb.co/jrUQQL/gomel.png"></div>
+    <div class="image"><img class="img6" src="https://image.ibb.co/cKkbX0/brest.png"></div>
+    <meta charset="utf-8" >
+    <link rel="stylesheet" href="gomel.css">
+
 </head>
 <body>
-    <p><a href="gomel.html"><button class="new" href="gomel.html">Гомель</button></a></p>
-    <p><a href="minsk.html"><button class="new">Минск</button></a></p>
-    <p><a href="vitebsk.html"><button class="new">Витебск</button></a></p>
-    <p><a href="brest.html"><button class="new">Брест</button></a></p>
-    <p><a href="grodno.html"><button class="new">Гродно</button></a></p>
-    <p><a href="mogilev.html"><button class="new">Могилев</button></a></p>
+<div class="new">Беларусь</div>
+<div class="texts img5 tooltip">
+    Город: <span id="namsgomel"></span>
+    <br>
+    Погода: <span id="weatgomel"></span>
+    <br>
+    Температура: <span id ="tempgomel" ></span>
+</div>
+<div class="texts img3">
+    Город: <span id="namsminsk"></span>
+    <br>
+    Погода: <span id="weatminsk"></span>
+    <br>
+    Температура: <span id ="tempminsk"></span>
+</div>
+<div class="texts img1">
+    Город: <span id="namsvitebsk"></span>
+    <br>
+    Погода: <span id="weatvitebsk"></span>
+    <br>
+    Температура: <span id ="tempvitebsk"></span>
+</div>
+<div class="texts img2">
+    Город: <span id="namsmogilev"></span>
+    <br>
+    Погода: <span id="weatmogilev"></span>
+    <br>
+    Температура: <span id ="tempmogilev"></span>
+</div>
+<div class="texts img6">
+    Город: <span id="namsbrest"></span>
+    <br>
+    Погода: <span id="weatbrest"></span>
+    <br>
+    Температура: <span id ="tempbrest"></span>
+</div>
+<div class="texts img4 ">
+    Город: <span id="namsgrodno"></span>
+    <br>
+    Погода: <span id="weatgrodno"></span>
+    <br>
+    Температура: <span id ="tempgrodno"></span>
+</div>
 </body>
+<script type="text/javascript" src="saspens.js"></script>
 </html>
