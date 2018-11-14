@@ -1,0 +1,89 @@
+.new {
+    background-color:#002b96;
+    border-radius:10px;
+    border:2px solid #000000;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Calibri;
+    font-size:40px;
+    font-weight:bold;
+    padding:10px 23px;
+    text-decoration:none;
+    text-shadow:2px 2px 2px #0d0d0d;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+body {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Map_Of_Belarus_blank.svg/850px-Map_Of_Belarus_blank.svg.png) no-repeat;
+}
+.image {
+    overflow:hidden;
+}
+.image img {
+    transition: all 1s ease-out;
+}
+.image img:hover {
+    transform: scale(1.5);
+    background-color: #0bcb00;
+    border: 3px solid #ffffff;
+    z-index: 1;
+}
+.img1 {
+     position: absolute;
+     left: 276px;
+     top: 13px;
+ }
+.img2 {
+    position: absolute;
+    left:455px;
+    top:268px;
+}
+.img3 {
+    position: absolute;
+    left:256px;
+    top:184px;
+}
+.img4 {
+    position: absolute;
+    left:40px;
+    top:189.1px;
+}
+.img5 {
+    position: absolute;
+    left:363px;
+    top:433px;
+}
+.img6 {
+    position: absolute;
+    left:10.5px;
+    top:423px;
+}
+.texts {
+    color: #000000;
+    background-color: #002b96;
+    z-index: 2;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    display: inline-block;
+    font-family:Calibri;
+    font-size: 23px;
+}
+.widget {
+    display: inline-block;
+}
+.tooltip {
+    margin-top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, margin-top 0.3s, visibility 0s linear 0.3s;
+}
+.image:hover .tooltip {
+    margin-top: 0;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
